@@ -37,17 +37,14 @@ pip install -r requirements.txt
 python start_ui.py
 ```
 
-### 方法2: 运行测试脚本
+### 方法2: 运行综合测试
 
 ```bash
-# 基础功能测试
-python test_basic.py
+# 综合功能测试（包含所有功能）
+python comprehensive_test.py
 
-# 高级功能测试  
-python test_advanced.py
-
-# 扩展功能测试
-python test_extended_fix.py
+# 环境测试
+python test_environment.py
 ```
 
 ### 方法3: 使用命令行工具
@@ -83,9 +80,8 @@ b_crawlforai/
 ├── 🚀 start_ui.py           # UI启动器
 ├── 🪟 启动界面.bat           # Windows启动脚本
 ├── 📦 requirements.txt       # 依赖包列表
-├── 🧪 test_basic.py          # 基础功能测试
-├── 🔧 test_advanced.py       # 高级功能测试
-├── 🚀 test_extended_fix.py   # 扩展功能测试
+├── 🧪 comprehensive_test.py  # 综合功能测试
+├── 🔧 test_environment.py    # 环境测试工具
 ├── 🛠️ crawl_utility.py       # 命令行工具
 ├── 📝 example_urls.txt       # 示例URL列表
 └── 📂 outputs/               # 输出目录
