@@ -1,0 +1,16 @@
+# 示例URL列表文件
+# 以 # 开头的行会被忽略
+# 每行一个URL
+
+# AI公司官网
+https://www.anthropic.com
+https://openai.com
+https://www.deepmind.com
+
+# 技术博客
+https://blog.google/technology/ai/
+https://research.facebook.com/blog/
+
+# 新闻网站
+https://techcrunch.com/category/artificial-intelligence/
+https://www.theverge.com/ai-artificial-intelligence 

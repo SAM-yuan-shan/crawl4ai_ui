@@ -1,0 +1,12 @@
+{
+  "url": "https://example.com",
+  "title": "N/A",
+  "content_length": 230,
+  "word_count": 29,
+  "links": {
+    "internal": 0,
+    "external": 1
+  },
+  "images": 0,
+  "extract_time": "2025-06-11T16:05:48.548186"
+}

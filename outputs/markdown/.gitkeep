@@ -1,0 +1,2 @@
+# This file ensures the markdown directory is tracked by Git
+# Markdown files are excluded by .gitignore to keep repository clean 

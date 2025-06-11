@@ -1,0 +1,22 @@
+页面信息报告
+=============
+
+URL: https://www.anthropic.com/news/agent-capabilities-api
+状态码: 200
+Markdown长度: 10879
+
+内容预览 (前500字符):
+[Skip to main content](https://www.anthropic.com/news/agent-capabilities-api#main-content)[Skip to footer](https://www.anthropic.com/news/agent-capabilities-api#footer)
+[](https://www.anthropic.com/)
+  * Claude
+  * API
+  * Solutions
+  * Research
+  * Commitments
+  * Learn
+[News](https://www.anthropic.com/news)
+[Try Claude](https://claude.ai/)
+Product
+# New capabilities for building agents on the Anthropic API
+2025年5月23日●4 min read
+![An illustration of a triangle connected to a circle.](https://ww

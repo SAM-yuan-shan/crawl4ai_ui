@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific - exclude large output files
+outputs/screenshots/*.png
+outputs/pdf/*.pdf
+outputs/markdown/*.md
+
+# Keep directory structure but ignore large files
+!outputs/screenshots/.gitkeep
+!outputs/pdf/.gitkeep
+!outputs/markdown/.gitkeep
+
+# Keep small output files for examples
+!outputs/*.json
+!outputs/*.txt 
