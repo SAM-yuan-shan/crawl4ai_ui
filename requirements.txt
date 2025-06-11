@@ -1,0 +1,16 @@
+# Crawl4AI UI 依赖包
+# 使用命令安装: pip install -r requirements.txt
+
+# 主要依赖
+crawl4ai>=0.3.0
+nest-asyncio>=1.5.0
+
+# 可选依赖（用于完整功能）
+playwright>=1.40.0
+aiofiles>=23.0.0
+
+# UI相关（通常内置）
+# tkinter - Python内置模块
+
+# 系统相关
+pathlib2>=2.3.0; python_version < "3.4" 

@@ -1,6 +1,6 @@
 # Crawl4AI 完整功能测试项目
 
-一个基于 [Crawl4AI](https://github.com/unclecode/crawl4ai) 的完整功能测试和演示项目。
+一个基于 [Crawl4AI](https://github.com/unclecode/crawl4ai) 的完整功能测试和演示项目，现已包含图形用户界面！
 
 ## 🚀 特性
 
@@ -10,6 +10,7 @@
 - ✅ **批量处理**: 支持多URL并发爬取
 - ✅ **高级配置**: 自定义浏览器、缓存、等待策略
 - ✅ **实用工具**: 命令行工具，开箱即用
+- 🆕 **图形界面**: 全功能GUI，小白也能轻松使用
 
 ## 📦 安装
 
@@ -23,7 +24,20 @@ python -m playwright install
 
 ## 🎯 快速开始
 
-### 方法1: 运行测试脚本
+### 方法1: 图形界面（推荐）
+
+```bash
+# 安装依赖
+pip install -r requirements.txt
+
+# 启动图形界面 - Windows用户
+双击 "启动界面.bat"
+
+# 启动图形界面 - 所有平台
+python start_ui.py
+```
+
+### 方法2: 运行测试脚本
 
 ```bash
 # 基础功能测试
@@ -36,7 +50,7 @@ python test_advanced.py
 python test_extended_fix.py
 ```
 
-### 方法2: 使用命令行工具
+### 方法3: 使用命令行工具
 
 ```bash
 # 简单爬取
@@ -64,6 +78,11 @@ python crawl_utility.py batch example_urls.txt
 b_crawlforai/
 ├── 📄 README.md              # 项目介绍
 ├── 📚 PROJECT_GUIDE.md       # 详细使用指南
+├── 📖 UI使用指南.md          # 图形界面使用指南
+├── 🖥️ crawl4ai_ui.py         # 图形用户界面
+├── 🚀 start_ui.py           # UI启动器
+├── 🪟 启动界面.bat           # Windows启动脚本
+├── 📦 requirements.txt       # 依赖包列表
 ├── 🧪 test_basic.py          # 基础功能测试
 ├── 🔧 test_advanced.py       # 高级功能测试
 ├── 🚀 test_extended_fix.py   # 扩展功能测试
@@ -128,10 +147,31 @@ async with AsyncWebCrawler() as crawler:
 
 ## 📚 文档
 
+- 🖥️ [图形界面使用指南](UI使用指南.md) - **新用户必读**
 - 📖 [详细使用指南](PROJECT_GUIDE.md)
 - 🌐 [官方文档](https://crawl4ai.com/mkdocs/)
 - 📺 [视频教程](https://www.bilibili.com/video/BV1Vx4y1g7bp/)
 - 💻 [Google Colab](https://colab.research.google.com/drive/1wz8u30rvbq6Scodye9AGCw8Qg_Z8QGsk)
+
+## 🖥️ 图形界面功能
+
+新增的图形用户界面提供了所有功能的可视化操作：
+
+### 主要特性
+- 🎯 **直观操作**: 点击式操作，无需记忆命令
+- 🔧 **完整配置**: 浏览器、过滤、导出等所有选项
+- 📋 **批量处理**: 支持多URL批量爬取
+- 📊 **实时反馈**: 详细的进度显示和错误提示
+- 💾 **结果管理**: 自动文件管理和输出组织
+
+### 界面截图
+![UI主界面](docs/ui-main.png)
+
+### 使用流程
+1. **输入网址** - 单个或批量URL
+2. **配置选项** - 浏览器、过滤、导出设置
+3. **开始爬取** - 一键启动，实时查看进度
+4. **查看结果** - 自动打开输出目录
 
 ## 🤝 贡献
 
